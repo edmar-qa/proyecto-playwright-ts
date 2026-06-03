@@ -1,5 +1,5 @@
 import { Page } from 'playwright'
-import { CommonPageElements } from './common_page.elements'
+import { CommonPageElements } from './common-page.elements'
 import { Logger } from '../../support/logger'
 export class CommonPageMethods {
     private page: Page
