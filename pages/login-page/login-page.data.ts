@@ -1,17 +1,14 @@
 export class LoginPageData {
-   static get credentials(){
-        return{
-            username:{
+    
+    static get credentials() {
+        return {
+            usernames: {
                 standardUser: 'standard_user',
-                locketOutUser: 'locked_out_user',
+                lockedOutUser: 'locked_out_user',
                 problemUser: 'problem_user',
-                performanceGlitchUser: 'performance_glitch_user',
-                errorUser: 'error_user',
-                visualUser: 'visual_user'
+                performanceGlitchUSer: 'performance_glitch_user'
             },
-
-            password:'secret_sauce'
-                
+            password: 'secret_sauce'
         }
     }
 }

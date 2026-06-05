@@ -1,4 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","12348","Login","webkit","2026-06-04","passed","2026-06-04","","test01.spec.ts","",""
-"","10178","Login","firefox","2026-06-04","passed","2026-06-04","","test01.spec.ts","",""
-"","8972","Login","chromium","2026-06-04","passed","2026-06-04","","test01.spec.ts","",""
+"","6453","Login","","2026-06-05","passed","2026-06-05","","test01.spec.ts","",""

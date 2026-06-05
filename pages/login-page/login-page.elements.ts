@@ -1,9 +1,9 @@
-import { Page } from "@playwright/test";
+import { Page } from "@playwright/test"
 
 export class LoginPageElements {
     private page: Page
 
-    constructor (page:Page) {
+    constructor(page: Page) {
         this.page = page
     }
 
@@ -14,9 +14,15 @@ export class LoginPageElements {
         }
     }
 
-    get button() {
+    get buttons() {
         return {
             login: this.page.locator('#login-button')
+        }
+    }
+
+    get otherElements(){
+        return{
+            errorMEssage: this.page.locator('[data-test="error"]')
         }
     }
 }
